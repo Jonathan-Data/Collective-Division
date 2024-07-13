@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px;
+  }
+
+.navbar img {
+    position: relative;
+    margin: 0px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+  }
+  
+  .navbar .links a {
+    color: black; /* This makes the links black */
+    text-decoration: none; /* This removes the underline */
+  }
+
+  .COMING {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+  }
+
+  .hometab img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+  }
+
+  .Subscribe {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 300px;
+    text-align: center;
+  }
