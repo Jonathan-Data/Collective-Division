@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* index */
+
+.navbar {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.navbar img {
+  position: fixed;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  object-fit: cover;
+}
+
+.navbar .links {
+  position: fixed;
+  bottom: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 140%;
+  gap: 35px;
+  white-space: nowrap;
+}
+
+.navbar .links li {
+  cursor: pointer;
+}
+
+.navbar .links li:hover a {
+  color: lightblue;
+}
+
+.navbar .links a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s; 
+}
+
+/* ALL PAGES */
+.title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.hometab img {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  width: 500px;
+}
+
+/* LookBook */
+.LKTITLE li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lookbook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: inherit; 
+}
+
+.lookbook img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer; 
+}
+
+
+/* CONTACT */
+
+.Subscribe {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+
+/* SPRING 2025 */
+
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px;
+}
+
+.clothes {
+  display: flex;
+  flex-wrap: wrap; 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center; 
+}
+
+.clothes li {
+  flex: 1 1 calc(33.333% - 20px); 
+  margin: 10px; 
+}
+
+.clothes a {
+  color: black;
+  text-decoration: none;
+}
+
+button img {
+  width: 100%; 
+  height: auto; 
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; 
+  transition: background-color 0.3s, opacity 0.3s; 
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.1); 
+  opacity: 0.7; 
+}
