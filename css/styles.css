@@ -108,6 +108,7 @@
   flex-direction: column;
   align-items: center; 
   padding: 20px;
+  background-color: inherit;
 }
 
 .clothes {
@@ -117,6 +118,7 @@
   padding: 0;
   margin: 0;
   justify-content: center; 
+  background-color: inherit;
 }
 
 .clothes li {
